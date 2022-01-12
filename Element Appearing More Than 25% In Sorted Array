@@ -31,7 +31,7 @@ class Solution(object):
             a = arr.count(li[i])
             flag.append(a)
 
-        max_value = max(flag)
-        max_index = flag.index(max_value)
+        max_value = max(flag) /// return max value of the list
+        max_index = flag.index(max_value)    /// find index of the max value
 
         return li[max_index]
